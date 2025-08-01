@@ -34,14 +34,14 @@
 - 数据聚合：实时聚合多个服务器的性能指标，提供整体视图
 
 ### 🔄 智能故障处理
-<img src="/doc/error_hand.png" width="100%" height="100%">
+<img src="/docs/error_hand.png" width="100%" height="100%">
 
 - 自动健康检查：定期健康检查（默认30秒间隔），自动标记不健康的服务器
 - 智能故障处理：指数退避重试策略，可配置的最大重试次数，智能错误分类
 - 错误隔离：一个服务器的失败不会影响其他服务器的正常运行
 
 ### 🎛️ 监控仪表板
-<img src="/doc/web_monitor.png" width="100%" height="100%">
+<img src="/docs/web_monitor.png" width="100%" height="100%">
 
 提供Web界面实时监控MCP服务器状态：
 
