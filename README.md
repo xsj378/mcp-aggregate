@@ -55,13 +55,7 @@
 
 ## 配置
 
-服务器需要一个JSON配置文件来指定要连接的MCP服务器。复制示例配置并根据需要修改：
-
-```bash
-cp config.example.json config.json
-```
-
-### 配置结构示例
+请在config.json中配置需要管理的MCP
 
 ```json
 {
@@ -137,6 +131,7 @@ cp config.example.json config.json
 - `alertThresholds`: 告警阈值配置
 
 ## 开发
+请将项目clone到本地
 
 安装依赖:
 ```bash
