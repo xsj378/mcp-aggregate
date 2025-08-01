@@ -1,0 +1,40 @@
+{
+  "servers": [
+    {
+      "name": "fetch",
+      "transport": {
+        "command": "uvx",
+        "args": [
+          "mcp-server-fetch"
+        ]
+      }
+    },
+    {
+      "name": "playwright",
+      "transport": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      }
+    },
+    {
+      "name": "context7",
+      "transport": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@upstash/context7-mcp"
+        ]
+      }
+    },
+    {
+      "name": "Example Server 3",
+      "transport": {
+        "type": "sse",
+        "url": "http://101.201.155.0:1122/sse"
+      }
+    }
+    
+  ]
+}
