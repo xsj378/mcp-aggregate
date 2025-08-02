@@ -27,14 +27,6 @@
           "@upstash/context7-mcp"
         ]
       }
-    },
-    {
-      "name": "Example Server 3",
-      "transport": {
-        "type": "sse",
-        "url": "http://101.201.155.0:1122/sse"
-      }
     }
-    
   ]
 }
